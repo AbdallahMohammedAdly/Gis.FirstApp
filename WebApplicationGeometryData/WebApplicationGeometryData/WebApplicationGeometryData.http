@@ -1,0 +1,6 @@
+@WebApplicationGeometryData_HostAddress = http://localhost:5135
+
+GET {{WebApplicationGeometryData_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

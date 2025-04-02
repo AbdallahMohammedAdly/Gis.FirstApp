@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "WebApplicationGeometryData.Controllers.GeometriesController",
+    "Method": "SaveGeometry",
+    "RelativePath": "api/Geometries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "geometriesDto",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplicationGeometryData.Models.DTOs.GeometryDto, WebApplicationGeometryData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationGeometryData.Controllers.GeometriesController",
+    "Method": "GetGeometries",
+    "RelativePath": "api/Geometries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationGeometryData.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationGeometryData.WeatherForecast, WebApplicationGeometryData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
